@@ -1,6 +1,5 @@
 import streamlit as st
 import json
-import random
 
 # Configurazione della pagina per massima usabilità su iPhone e schermi Mobile
 st.set_page_config(
@@ -192,7 +191,7 @@ if questions_db:
                     st.balloons()
                     st.success("🏆 ECCELLENTE! Hai completato l'intero percorso di studio sbloccando tutti i 9 moduli d'esame!")
         else:
-            st.error(f"🔴 Livello non superato. Hai commesso {errori} errori (il massimo consentito è 4). Rivedi lo scheda tecnica e riprova!")
+            st.error(f"🔴 Livello non superato. Hai commesso {errori} errori (il massimo consentito è 4). Rivedi lo schema tecnico e riprova!")
             
         if errori > 0:
             st.subheader("🔍 Analisi dettagliata degli errori:")
