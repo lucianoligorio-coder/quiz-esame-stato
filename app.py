@@ -2,36 +2,55 @@ import streamlit as st
 import json
 import random
 
-# Configurazione della pagina (Ottimizzata per visualizzazione Mobile/iPhone)
+# Configurazione della pagina (Ottimizzata al massimo per iPhone)
 st.set_page_config(
-    page_title="Esame di Stato Quiz",
+    page_title="Quiz Esame di Stato",
     page_icon="📚",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
 
-# Stile CSS personalizzato per rendere i pulsanti e i testi grandi e facilmente cliccabili su iPhone
+# CSS personalizzato per trasformare i Radio Button in grandi pulsanti touch-friendly
 st.markdown("""
 <style>
-    .stRadio > div { padding: 10px; background-color: #f9f9f9; border-radius: 10px; margin-bottom: 10px; }
-    .stButton > button { width: 100%; padding: 12px; font-size: 18px !important; border-radius: 8px; }
-    h1 { font-size: 26px !important; text-align: center; }
-    h3 { font-size: 18px !important; }
+    /* Rende le opzioni delle crocette molto più grandi e facili da cliccare su iPhone */
+    .stRadio div[role="radiogroup"] label {
+        background-color: #f1f3f5 !important;
+        padding: 14px 20px !important;
+        border-radius: 12px !important;
+        margin-bottom: 10px !important;
+        display: block !important;
+        border: 1px solid #e9ecef !important;
+        font-size: 16px !important;
+    }
+    .stRadio div[role="radiogroup"] label:hover {
+        background-color: #e2e6ea !important;
+    }
+    .stButton > button { 
+        width: 100%; 
+        padding: 15px !important; 
+        font-size: 18px !important; 
+        border-radius: 12px !important;
+        background-color: #007bff !important;
+        color: white !important;
+        font-weight: bold !important;
+    }
+    h1 { font-size: 24px !important; text-align: center; font-weight: bold; }
+    h3 { font-size: 18px !important; margin-top: 20px !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# 1. Caricamento database domande
 def load_questions():
     try:
         with open("questions.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        st.error("File 'questions.json' non trovato! Assicurati che sia nella stessa cartella di app.py.")
+        st.error("File 'questions.json' non trovato nel server.")
         return None
 
 questions_db = load_questions()
 
-# 2. Inizializzazione dello Stato della Sessione (per non perdere i dati al click su iPhone)
+# Gestione dello stato dell'applicazione
 if "livello_sbloccato" not in st.session_state:
     st.session_state.livello_sbloccato = 1
 if "test_in_corso" not in st.session_state:
@@ -48,69 +67,69 @@ if "livello_selezionato" not in st.session_state:
 st.title("📚 Simulatore Esame di Stato")
 
 if questions_db:
-    # Selezione del livello (Il livello 2 compare solo se sbloccato)
+    # Menu Scelta Livello
     opzioni_livello = ["Livello 1 - Fondamentali"]
     if st.session_state.livello_sbloccato >= 2:
         opzioni_livello.append("Livello 2 - Domande Complesse 🔥")
         
-    livello_scelto_str = st.selectbox("Seleziona il Livello di studio:", opzioni_livello, disabled=st.session_state.test_in_corso)
-    livello_scelto = 1 if "Livello 1" in livello_scelto_str else 2
-    st.session_state.livello_selezionato = livello_scelto
+    livello_scelto_str = st.selectbox("Seleziona il Livello:", opzioni_livello, disabled=st.session_state.test_in_corso)
+    st.session_state.livello_selezionato = 1 if "Livello 1" in livello_scelto_str else 2
 
-    # Pulsante per Avviare il Test
+    # Avvio Test
     if not st.session_state.test_in_corso:
-        if st.button("🚀 INIZIA NUOVO TEST (30 Domande Casuali)"):
-            chiave_livello = f"livello_{livello_scelto}"
+        st.write("Clicca il pulsante sotto per generare 30 domande casuali dal tuo PDF.")
+        if st.button("🚀 INIZIA NUOVO TEST"):
+            chiave_livello = f"livello_{st.session_state.livello_selezionato}"
             tutte_le_domande = questions_db.get(chiave_livello, [])
             
-            # Estrazione di massimo 30 domande casuali e uniche
             k_domande = min(30, len(tutte_le_domande))
             st.session_state.domande_estratte = random.sample(tutte_le_domande, k_domande)
             
-            st.session_state.risposte_utente = {}
+            # Reset delle risposte
+            st.session_state.risposte_utente = {q['id']: None for q in st.session_state.domande_estratte}
             st.session_state.test_in_corso = True
             st.session_state.mostra_risultati = False
             st.rerun()
 
-    # Svolgimento del Test
+    # Svolgimento del Quiz (Crocette sempre visibili)
     if st.session_state.test_in_corso and not st.session_state.mostra_risultati:
-        st.warning(f"Test avviato: {len(st.session_state.domande_estratte)} domande estratte casualmente.")
+        st.info(f"Domande nel test: {len(st.session_state.domande_estratte)} | Massimo 4 errori consentiti.")
         
-        # Mostra le domande una sotto l'altra (perfetto per lo scroll verticale su iPhone)
         for i, q in enumerate(st.session_state.domande_estratte):
             st.markdown(f"### **{i+1}. {q['domanda']}**")
             
-            # Mantiene traccia della risposta selezionata dall'utente
-            chiave_risposta = f"q_{q['id']}"
-            opzioni = q['opzioni']
-            
-            # Selezione risposta
-            risposta = st.radio(
-                "Scegli una risposta:", 
-                options=["Seleziona una risposta..."] + opzioni, 
-                key=chiave_risposta,
+            # Qui mostriamo le opzioni direttamente come pulsanti a scelta singola (senza tendine nascoste)
+            opzione_selezionata = st.radio(
+                label=f"Opzioni per la domanda {q['id']}",
+                options=q['opzioni'],
+                index=None, # Nessuna risposta preselezionata all'inizio
+                key=f"radio_{q['id']}",
                 label_visibility="collapsed"
             )
-            if risposta != "Seleziona una risposta...":
-                st.session_state.risposte_utente[q['id']] = risposta
+            
+            # Registra la risposta toccata dall'utente
+            if opzione_selezionata:
+                st.session_state.risposte_utente[q['id']] = opzione_selezionata
         
         st.markdown("---")
         if st.button("🏁 CONSEGNA IL TEST"):
             st.session_state.mostra_risultati = True
             st.rerun()
 
-    # Schermata dei Risultati e Correzione
+    # Risultati finali
     if st.session_state.mostra_risultati:
         st.header("📊 Risultato del tuo Test")
         
         errori = 0
         totale_domande = len(st.session_state.domande_estratte)
-        
         scheda_correzione = []
         
         for q in st.session_state.domande_estratte:
-            risposta_data = st.session_state.risposte_utente.get(q['id'], "Nessuna risposta data")
+            risposta_data = st.session_state.risposte_utente.get(q['id'])
             risposta_esatta = q['risposta_corretta']
+            
+            if risposta_data is None:
+                risposta_data = "Nessuna risposta data"
             
             if risposta_data != risposta_esatta:
                 errori += 1
@@ -120,27 +139,25 @@ if questions_db:
                     "corretta": risposta_esatta
                 })
         
-        # Calcolo dell'esito
-        st.metric(label="Numero di Errori Commessi", value=f"{errori} / {totale_domande}")
+        st.metric(label="Errori Commessi", value=f"{errori} / {totale_domande}")
         
         if errori <= 4:
-            st.success("🎉 COMPLIMENTI! Hai superato il test con meno di 4 errori!")
+            st.success("🎉 SUPERATO! Ottimo lavoro.")
             if st.session_state.livello_selezionato == 1 and st.session_state.livello_sbloccato == 1:
                 st.session_state.livello_sbloccato = 2
-                st.info("🔓 HAI SBLOCCATO IL LIVELLO 2 CON DOMANDE PIÙ COMPLESSE!")
+                st.info("🔓 LIVELLO 2 SBLOCCATO! Ora puoi selezionarlo dal menu in alto.")
         else:
-            st.error(f"🔴 Non superato. Hai fatto {errori} errori (Il massimo consentito è 4). Riprova per sbloccare il livello successivo.")
+            st.error(f"🔴 Hai commesso {errori} errori. Il limite per sbloccare il livello successivo è 4.")
             
-        # Sezione di Correzione degli Errori
         if errori > 0:
-            st.subheader("🔍 Riepilogo degli errori commessi:")
+            st.subheader("🔍 Dove hai sbagliato:")
             for item in scheda_correzione:
-                with st.expander(f"❌ Errore nella domanda: {item['domanda'][:50]}..."):
-                    st.write(f"**Domanda intera:** {item['domanda']}")
-                    st.markdown(f" La tua risposta: <span style='color:red'>{item['tua']}</span>", unsafe_allow_html=True)
-                    st.markdown(f" Risposta corretta: <span style='color:green'>{item['corretta']}</span>", unsafe_allow_html=True)
+                with st.expander(f"Dettaglio errore: {item['domanda'][:40]}..."):
+                    st.write(f"**Domanda:** {item['domanda']}")
+                    st.markdown(f"❌ La tua risposta: <span style='color:#dc3545; font-weight:bold;'>{item['tua']}</span>", unsafe_allow_html=True)
+                    st.markdown(f"✅ Risposta esatta: <span style='color:#28a745; font-weight:bold;'>{item['corretta']}</span>", unsafe_allow_html=True)
         
-        if st.button("🔄 Torna al Menu Principale / Fai un altro Test"):
+        if st.button("🔄 Fai un altro test"):
             st.session_state.test_in_corso = False
             st.session_state.mostra_risultati = False
             st.rerun()
