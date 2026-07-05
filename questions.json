@@ -2,177 +2,834 @@
   "livello_1": [
     {
       "id": 1,
-      "domanda": "Qual è la distanza minima tra fabbricati all'interno della Zona B ai sensi del D.M. 1444/1968?",
+      "domanda": "In base al D.M. 1444/1968 (art. 9) e al D.lgs 285/92, qual è la distanza minima da una strada urbana se la larghezza della carreggiata è compresa tra 7 e 15 metri?",
       "opzioni": ["5 metri", "7,5 metri", "10 metri", "12 metri"],
-      "risposta_corretta": "10 metri"
+      "risposta_corretta": "7,5 metri"
     },
     {
       "id": 2,
-      "domanda": "Per una strada urbana con larghezza inferiore a 7 metri, qual è il distacco minimo da rispettare?",
-      "opzioni": ["5 metri", "7,5 metri", "10 metri", "Non è previsto alcun distacco"],
-      "risposta_corretta": "5 metri"
-    },
-    {
-      "id": 3,
-      "domanda": "Qual è la distanza dal confine da rispettare per alberature ad alto fusto (h > 3m)?",
+      "domanda": "Qual è la distanza dal confine da rispettare tassativamente per le alberature ad alto fusto (altezza massima superiore a 3 metri)?",
       "opzioni": ["0,5 metri", "1,5 metri", "3 metri", "5 metri"],
       "risposta_corretta": "3 metri"
     },
     {
+      "id": 3,
+      "domanda": "Secondo il D.M. 1444/1968, qual è il distacco minimo assoluto tra pareti finestrate di edifici antistanti nelle zone omogenee B, C, D, E, F?",
+      "opzioni": ["5 metri", "6 metri", "10 metri", "12 metri"],
+      "risposta_corretta": "10 metri"
+    },
+    {
       "id": 4,
-      "domanda": "Secondo il codice civile e i regolamenti edilizi standard, qual è la distanza generale minima da confine per i fabbricati?",
-      "opzioni": ["1,5 metri", "3 metri", "5 metri", "10 metri"],
+      "domanda": "Per una strada urbana con larghezza della carreggiata inferiore a 7 metri, qual è il distacco minimo dell'edificio dal ciglio stradale?",
+      "opzioni": ["3 metri", "5 metri", "7,5 metri", "10 metri"],
       "risposta_corretta": "5 metri"
     },
     {
       "id": 5,
-      "domanda": "Qual è la distanza dal confine da rispettare per le siepi con altezza massima di 2,5 metri?",
-      "opzioni": ["0,5 metri", "1 metro", "1,5 metri", "3 metri"],
-      "risposta_corretta": "0,5 metri"
+      "domanda": "In base al D.M. 5 Luglio 1975, qual è l'altezza minima interna richiesta per i corridoi, disimpegni e bagni nelle residenze?",
+      "opzioni": ["2,20 metri", "2,40 metri", "2,70 metri", "3,00 metri"],
+      "risposta_corretta": "2,40 metri"
     },
     {
       "id": 6,
-      "domanda": "Qual è l'orientamento ottimale indicato nel manuale di progettazione per ottimizzare l'asse eliotermico?",
-      "opzioni": ["Nord-Sud (NS)", "Est-Ovest (EO)", "Nord/Nord-Est", "Sud/Sud-Ovest"],
-      "risposta_corretta": "Nord-Sud (NS)"
+      "domanda": "Qual è la pendenza costante massima consentita dalla normativa vigente per la realizzazione di una rampa per autorimesse/garage?",
+      "opzioni": ["5%", "10%", "15%", "20%"],
+      "risposta_corretta": "20%"
     },
     {
       "id": 7,
-      "domanda": "Nello schema di orientamento ottimale dell'edificio, dove dovrebbero essere preferibilmente collocati i servizi?",
-      "opzioni": ["A Sud", "A Est", "A Ovest", "A Nord"],
-      "risposta_corretta": "A Nord"
+      "domanda": "Secondo il D.M. 236/1989 sulle barriere architettoniche, qual deve essere la luce netta minima di passaggio di una porta d'ingresso principale?",
+      "opzioni": ["70 cm", "75 cm", "80 cm", "90 cm"],
+      "risposta_corretta": "80 cm"
     },
     {
       "id": 8,
-      "domanda": "Per una strada urbana con larghezza compresa tra 7 e 15 metri, qual è la distanza di distacco richiesta?",
-      "opzioni": ["5 metri", "7,5 metri", "10 metri", "15 metri"],
-      "risposta_corretta": "7,5 metri"
+      "domanda": "Nelle alberature da confine del codice civile, quale distanza si deve rispettare per siepi o arbusti con altezza massima fino a 2,5 metri?",
+      "opzioni": ["0,5 metri", "1,0 metri", "1,5 metri", "3,0 metri"],
+      "risposta_corretta": "0,5 metri"
     },
     {
       "id": 9,
-      "domanda": "In quale zona urbanistica la distanza minima tra fabbricati deve essere pari o superiore alla distanza tra gli edifici esistenti?",
-      "opzioni": ["Zona A", "Zona B", "Zona C", "Zona D"],
-      "risposta_corretta": "Zona A"
+      "domanda": "Se una strada urbana presenta una larghezza della carreggiata superiore a 15 metri, qual è la distanza minima da rispettare dal ciglio stradale?",
+      "opzioni": ["5 metri", "7,5 metri", "10 metri", "12,5 metri"],
+      "risposta_corretta": "10 metri"
     },
     {
       "id": 10,
-      "domanda": "Per una strada urbana con larghezza superiore a 15 metri, qual è il distacco minimo?",
-      "opzioni": ["7,5 metri", "10 metri", "12,5 metri", "15 metri"],
-      "risposta_corretta": "10 metri"
+      "domanda": "Nell'orientamento ottimale tramite asse eliotermico descritto nel Livello 1, qual è la disposizione ideale consigliata per i blocchi dei servizi?",
+      "opzioni": ["Sud", "Est", "Ovest", "Nord"],
+      "risposta_corretta": "Nord"
     },
     {
       "id": 11,
-      "domanda": "Quale altezza massima (hmax) definisce le piante a 'medio fusto' secondo il codice civile?",
-      "opzioni": ["1,5 metri", "2 metri", "3 metri", "5 metri"],
-      "risposta_corretta": "3 metri"
-    },
-    {
-      "id": 12,
-      "domanda": "Qual è il distacco minimo da confine per le alberature a medio fusto?",
-      "opzioni": ["0,5 metri", "1,5 metri", "3 metri", "5 metri"],
+      "domanda": "Per le alberature a medio fusto (altezza massima fino a 3 metri), qual è la distanza minima dal confine prescritta dal codice civile?",
+      "opzioni": ["0,5 metri", "1,5 metri", "2,0 metri", "3,0 metri"],
       "risposta_corretta": "1,5 metri"
     },
     {
+      "id": 12,
+      "domanda": "Qual è la formula corretta per calcolare la percentuale di pendenza (%) di una rampa note l'altezza (H) e la lunghezza orizzontale (L)?",
+      "opzioni": ["% = (L / H) * 100", Kish, "% = (H / L) * 100", "% = H + L"],
+      "risposta_corretta": "% = (H / L) * 100"
+    },
+    {
       "id": 13,
-      "domanda": "Nelle zone B, D, E e F, qual è il limite minimo inderogabile di distanza tra pareti finestrate e pareti di edifici antistanti?",
-      "opzioni": ["6 metri", "8 metri", "10 metri", "12 metri"],
-      "risposta_corretta": "10 metri"
+      "domanda": "Secondo il D.M. 236/1989, qual è la luce netta minima richiesta per le porte interne secondarie degli alloggi visitabili?",
+      "opzioni": ["60 cm", "70 cm", "75 cm", "80 cm"],
+      "risposta_corretta": "75 cm"
     },
     {
       "id": 14,
-      "domanda": "Nel diagramma dell'asse eliotermico, oltre a Nord-Sud, quale altro orientamento intermedio viene considerato accettabile?",
-      "opzioni": ["Est-Ovest", "Nord/Nord-Est", "Sud-Est", "Nessuno"],
-      "risposta_corretta": "Nord/Nord-Est"
+      "domanda": "Qual è l'altezza minima interna stabilita dal D.M. 5 Luglio 1975 per i locali principali (soggiorno, camere, cucina) negli edifici residenziali?",
+      "opzioni": ["2,40 metri", "2,50 metri", "2,70 metri", "3,00 metri"],
+      "risposta_corretta": "2,70 metri"
     },
     {
       "id": 15,
-      "domanda": "L'orientamento ottimale per massimizzare l'apporto solare ed eliotermico nelle stanze principali è:",
-      "opzioni": ["Completamente a Nord", "Asse eliotermico Nord-Sud", "Completamente a Ovest", "Diagonale perfetta a Nord-Ovest"],
-      "risposta_corretta": "Asse eliotermico Nord-Sud"
+      "domanda": "In Zona C, secondo il D.M. 1444/1968, i distacchi minimi tra pareti finestrate e pareti opposte devono corrispondere a:",
+      "opzioni": ["Sempre 10 metri", "Distanza pari all'altezza dell'edificio più basso", "Angolo a 45 gradi dall'edificio più alto", "Nessun limite minimo"],
+      "risposta_corretta": "Angolo a 45 gradi dall'edificio più alto"
     }
   ],
   "livello_2": [
     {
-      "id": 101,
-      "domanda": "DOMANDA COMPLESSA: In Zona C, come viene calcolata la distanza minima tra i fabbricati?",
+      "id": 201,
+      "domanda": "Secondo i parametri degli standard urbanistici, in quale zona omogenea la superficie coperta deve superare il 12,5% (1/8) della SF e la densità edilizia deve superare 1,5 mc/mq?",
+      "opzioni": ["Zona A", "Zona B", "Zona C", "Zona D"],
+      "risposta_corretta": "Zona B"
+    },
+    {
+      "id": 202,
+      "domanda": "Nei comuni con popolazione superiore a 10.000 abitanti, a quanto ammonta la quota totale minima di standard urbanistici per abitante in Zona C?",
+      "opzioni": ["12,5 mq/abitante", "18 mq/abitante", "9 mq/abitante", "4,5 mq/abitante"],
+      "risposta_corretta": "18 mq/abitante"
+    },
+    {
+      "id": 203,
+      "domanda": "All'interno degli standard della Zona C per comuni sopra i 10.000 abitanti, quanti mq/abitante sono assegnati nello specifico al verde pubblico attrezzato?",
+      "opzioni": ["4,5 mq/ab", "8 mq/ab", "9 mq/ab", "2 mq/ab"],
+      "risposta_corretta": "9 mq/ab"
+    },
+    {
+      "id": 204,
+      "domanda": "Qual è la definizione corretta di Superficie Fondiaria (SF) in base al Livello 2?",
+      "opzioni": ["Superficie totale del lotto compresi gli standard pubblici", "Superficie totale del lotto al netto delle aree per standard pubblici", "Somma delle superfici utili calpestabili", "Superficie occupata solo dalla proiezione dell'edificio"],
+      "risposta_corretta": "Superficie totale del lotto al netto delle aree per standard pubblici"
+    },
+    {
+      "id": 205,
+      "domanda": "All'interno delle definizioni urbanistiche del testo, cos'è la Superficie Lorda (SL)?",
+      "opzioni": ["Somma delle superfici di tutti i piani al netto di murature e tramezzi", "Somma delle superfici di tutti i piani comprese nel profilo perimetrale esterno, escluse le superfici accessorie", "Superficie totale calpestabile più il 60% dei balconi", "Superficie occupata dal piano terra pilotis"],
+      "risposta_corretta": "Somma delle superfici di tutti i piani comprese nel profilo perimetrale esterno, escluse le superfici accessorie"
+    },
+    {
+      "id": 206,
+      "domanda": "Qual è la quota di standard urbanistico per abitante destinata all'Istruzione (asili nido, scuole materne ed dell'obbligo) in Zona C?",
+      "opzioni": ["2 mq/ab", "2,5 mq/ab", "4,5 mq/ab", "9 mq/ab"],
+      "risposta_corretta": "4,5 mq/ab"
+    },
+    {
+      "id": 207,
+      "domanda": "Nei comuni con popolazione inferiore a 10.000 abitanti, a quanto ammonta lo standard urbanistico complessivo minimo per abitante in Zona C?",
+      "opzioni": ["9 mq/abitante", "12,5 mq/abitante", "18 mq/abitante", "24 mq/abitante"],
+      "risposta_corretta": "12,5 mq/abitante"
+    },
+    {
+      "id": 208,
+      "domanda": "Come viene definita la Superficie Utile (SU) all'interno del Livello 2?",
+      "opzioni": ["Superficie lorda compresi i muri perimetrali", "Superficie di pavimento degli spazi di un edificio misurata al netto di murature, pilastri, tramezzi, sguinci e vani di porte e finestre", "Superficie complessiva comprensiva del 60% della SA", "Superficie destinata esclusivamente a servizi tecnologici ed accessori"],
+      "risposta_corretta": "Superficie di pavimento degli spazi di un edificio misurata al netto di murature, pilastri, tramezzi, sguinci e vani di porte e finestre"
+    },
+    {
+      "id": 209,
+      "domanda": "Qual è la formula corretta per il calcolo della Superficie Complessiva (SC)?",
+      "opzioni": ["SC = SU + SA", "SC = SL + SU", "SC = SU + 60% SA", "SC = SU + 40% SA"],
+      "risposta_corretta": "SC = SU + 60% SA"
+    },
+    {
+      "id": 210,
+      "domanda": "In Zona C per comuni sopra i 10.000 abitanti, quale quota di standard per abitante viene assegnata ai parcheggi pubblici?",
+      "opzioni": ["2-2,5 mq/ab", "4,5 mq/ab", "8 mq/ab", "9 mq/ab"],
+      "risposta_corretta": "2-2,5 mq/ab"
+    },
+    {
+      "id": 211,
+      "domanda": "Quale zona omogenea racchiude le parti del territorio inedificate destinate a nuovi insediamenti produttivi, industriali o artigianali?",
+      "opzioni": ["Zona C", "Zona D", "Zona E", "Zona F"],
+      "risposta_corretta": "Zona D"
+    },
+    {
+      "id": 212,
+      "domanda": "La quota minima di standard urbanistico riservata ai Servizi di Quartiere nei comuni maggiori è pari a:",
+      "opzioni": ["1 mq/ab", "2 mq/ab", "4,5 mq/ab", "8 mq/ab"],
+      "risposta_corretta": "2 mq/ab"
+    },
+    {
+      "id": 213,
+      "domanda": "La Zona Omogenea F identifica per legge:",
+      "opzioni": ["Le aree destinate ad usi agricoli e di salvaguardia paesaggistica", "Le parti del territorio destinate ad attrezzature e impianti di interesse generale", "I centri storici e nuclei antichi ad alto pregio", "Le espansioni residenziali a bassa densità edilizia"],
+      "risposta_corretta": "Le parti del territorio destinate ad attrezzature e impianti di interesse generale"
+    },
+    {
+      "id": 214,
+      "domanda": "Qual è il limite numerico della densità edilizia oltre il quale un'area parzialmente edificata viene classificata come Zona B anziché C?",
+      "opzioni": ["0,5 mc/mq", "1,0 mc/mq", "1,5 mc/mq", "3,0 mc/mq"],
+      "risposta_corretta": "1,5 mc/mq"
+    },
+    {
+      "id": 215,
+      "domanda": "Se la Superficie Totale (ST) è 50.000 mq e la somma delle aree destinate a standard è 15.600 mq, qual è la Superficie Fondiaria (SF) risultante?",
+      "opzioni": ["65.600 mq", "50.000 mq", "34.400 mq", "25.000 mq"],
+      "risposta_corretta": "34.400 mq"
+    }
+  ],
+  "livello_3": [
+    {
+      "id": 301,
+      "domanda": "Nel predimensionamento empirico di un telaio in Calcestruzzo Armato per edifici civili (luci 5-8 metri), come si calcola la profondità utile (h) della trave?",
+      "opzioni": ["h ≈ L/10", "h ≈ L/20", "h ≈ L/35", "h (mm) = 40/50 x L(m)"],
+      "risposta_corretta": "h ≈ L/20"
+    },
+    {
+      "id": 302,
+      "domanda": "Nel solaio laterocementizio con pignatta da 16 cm (Daku Roofsoil), qual è lo spessore indicato per l'isolamento termico?",
+      "opzioni": ["2 cm", "8 cm", "10-6 cm", "26 cm"],
+      "risposta_corretta": "10-6 cm"
+    },
+    {
+      "id": 303,
+      "domanda": "Nelle travi in acciaio (profili IPE, HEA, HEB), qual è la formula alternativa indicata nel testo per determinare l'altezza h in millimetri in base alla luce L in metri?",
+      "opzioni": ["h (mm) = L / 20", "h (mm) = 40/50 x L (m)", "h (mm) = 100 x L (m)", "h (mm) = L / 35"],
+      "risposta_corretta": "h (mm) = 40/50 x L (m)"
+    },
+    {
+      "id": 304,
+      "domanda": "Fino a quali luci massime di copertura vengono utilizzate le travi in calcestruzzo armato precompresso (es. per ponti o strutture industriali)?",
+      "opzioni": ["Fino a 5-8 metri", "Fino a 10-15 metri", "Fino a 20-30 metri", "Oltre i 100 metri"],
+      "risposta_corretta": "Fino a 20-30 metri"
+    },
+    {
+      "id": 305,
+      "domanda": "Quale tipologia di struttura metallica consente di superare agevolmente luci libere superiori a 100 metri?",
+      "opzioni": ["Travi a I e H ordinarie", "Tralicci e capriate", "Strutture reticolari spaziali", "Telai semplici incastrati"],
+      "risposta_corretta": "Struttures reticolari spaziali"
+    },
+    {
+      "id": 306,
+      "domanda": "Nel nodo tra pareti esterne e copertura in legno lamellare, qual è lo spessore indicato per la coibentazione con lana minerale?",
+      "opzioni": ["6 cm", "12 cm", "20 cm", "26 cm"],
+      "risposta_corretta": "26 cm"
+    },
+    {
+      "id": 307,
+      "domanda": "Quali sono i sistemi costruttivi pesanti utilizzati per le strutture in legno descritti nel testo?",
+      "opzioni": ["Platform frame e Balloon frame", "Strutture a telaio leggero travi e pilastri", "Block bau e XLAM (CLT)", "Sistemi misti acciaio-legno"],
+      "risposta_corretta": "Block bau e XLAM (CLT)"
+    },
+    {
+      "id": 308,
+      "domanda": "Nel dimensionamento dei pilastri in acciaio, qual è la formula empirica per calcolare l'area della sezione necessaria (Asezione)?",
+      "opzioni": ["Asezione ≈ Nd / (0,3 * fyd)", "Asezione ≈ L / 20", "Asezione ≈ Nd * 20", "Asezione ≈ fyd / Nd"],
+      "risposta_corretta": "Asezione ≈ Nd / (0,3 * fyd)"
+    },
+    {
+      "id": 309,
+      "domanda": "Nella stratigrafia del tetto verde rovescio (Daku Roofsoil) sopra il solaio in C.A., qual è lo spessore dello strato dell'elemento drenante DAKU FSD?",
+      "opzioni": ["1,3 cm", "8 cm", "16 cm", "24 cm"],
+      "risposta_corretta": "8 cm"
+    },
+    {
+      "id": 310,
+      "domanda": "Quali luci libere coprono tipicamente le strutture in acciaio composte da tralicci o capriate per coperture industriali e palazzetti?",
+      "opzioni": ["5-8 metri", "10-20 metri", "30-60 metri", "Oltre 100 metri"],
+      "risposta_corretta": "30-60 metri"
+    },
+    {
+      "id": 311,
+      "domanda": "Nello schema strutturale a telaio in Calcestruzzo Armato per edilizia civile, qual è l'interasse economico o luce tipica tra i pilastri?",
+      "opzioni": ["2-4 metri", "5-8 metri", "10-15 metri", "15-25 metri"],
+      "risposta_corretta": "5-8 metri"
+    },
+    {
+      "id": 312,
+      "domanda": "Nel pacchetto di copertura ventilato in legno, qual è lo spessore richiesto per la camera di ventilazione?",
+      "opzioni": "2,50 cm", "6 cm", "26 cm", "30 cm",
+      "risposta_corretta": "6 cm"
+    },
+    {
+      "id": 313,
+      "domanda": "Nello spessore del massetto delle pendenze sul solaio laterocementizio tipo, viene indicato un valore di:",
+      "opzioni": ["6 cm", "10 cm", "16 cm", "24 cm"],
+      "risposta_corretta": "24 cm"
+    },
+    {
+      "id": 314,
+      "domanda": "Qual è lo spessore del tavolato in legno per perline interno che funge da supporto alla barriera al vapore nella copertura?",
+      "opzioni": ["2 cm", "6 cm", "10 cm", "26 cm"],
+      "risposta_corretta": "2 cm"
+    },
+    {
+      "id": 315,
+      "domanda": "Le travi in acciaio a profilo I e H ordinarie (es. IPE, HEA) sono indicate per luci comprese tra:",
+      "opzioni": ["3-5 metri", "10-20 metri", "30-60 metri", "Oltre 100 metri"],
+      "risposta_corretta": "10-20 metri"
+    }
+  ],
+  "livello_4": [
+    {
+      "id": 401,
+      "domanda": "In base ai tagli interni minimi del D.M. 1975, qual è la superficie minima richiesta per un alloggio dimensionato per 4 persone?",
+      "opzioni": ["28 mq", "38 mq", "42-56 mq", "56-66 mq"],
+      "risposta_corretta": "56-66 mq"
+    },
+    {
+      "id": 402,
+      "domanda": "Nelle Residenze Sanitarie Assistenziali (RSA) per soggetti non autosufficienti, qual è la capienza massima di persone consentita per camera?",
+      "opzioni": ["1 persona", "2 persone", "4 persone", "Nessun limite"],
+      "risposta_corretta": "4 persone"
+    },
+    {
+      "id": 403,
+      "domanda": "Secondo i parametri delle case unifamiliari a patio, qual è l'altezza standard indicata per il muro di cinta/perimetrale?",
+      "opzioni": ["1,80 metri", "2,20 metri", "2,50 metri", "3,00 metri"],
+      "risposta_corretta": "2,50 metri"
+    },
+    {
+      "id": 404,
+      "domanda": "In base alla Legge Tognoli e alle disposizioni sui parcheggi pertinenziali nelle case unifamiliari, qual è il rapporto minimo volumetrico richiesto?",
+      "opzioni": ["1 mq / 1 mc", "1 mq / 10 mc", "1 mq / 5 mc", "2 mq / 1 mc"],
+      "risposta_corretta": "1 mq / 1 mc"
+    },
+    {
+      "id": 405,
+      "domanda": "Qual è la superficie minima richiesta dal D.M. 1975 per un alloggio monolocale destinato a una sola persona?",
+      "opzioni": ["14 mq", "28 mq", "38 mq", "42 mq"],
+      "risposta_corretta": "28 mq"
+    },
+    {
+      "id": 406,
+      "domanda": "Negli edifici residenziali intensivi (condomini), a quali funzioni deve essere destinato il piano terra affinché non rientri nel computo della cubatura o SLP?",
+      "opzioni": ["Pilotis, garage o spazi comuni condominiali", "Botteghe commerciali al dettaglio", "Appartamenti duplex di pregio", "Uffici professionali privati"],
+      "risposta_corretta": "Pilotis, garage o spazi comuni condominiali"
+    },
+    {
+      "id": 407,
+      "domanda": "Nelle strutture sanitarie assistenziali (RSA), qual è la dimensione in mq prescritta per il locale della camera ardente?",
+      "opzioni": ["2,5 mq", "15 mq", "22 mq", "3.5 mq"],
+      "risposta_corretta": "3.5 mq"
+    },
+    {
+      "id": 408,
+      "domanda": "Per un alloggio dimensionato per ospitare stabilmente 6 persone, i tagli interni del D.M. 1975 fissano una superficie di:",
+      "opzioni": ["42-56 mq", "56-66 mq", "66-76 mq", "76-86 mq"],
+      "risposta_corretta": "76-86 mq"
+    },
+    {
+      "id": 409,
+      "domanda": "Nel dimensionamento delle RSA, qual è il numero massimo complessivo di posti letto consigliato per l'intera struttura?",
+      "opzioni": ["20 posti letto", "45 posti letto", "90 posti letto", "150 posti letto"],
+      "risposta_corretta": "90 posti letto"
+    },
+    {
+      "id": 410,
+      "domanda": "Per alloggi destinati a più di 7 persone, la norma del D.M. 1975 prevede un incremento di superficie per ogni persona aggiuntiva pari a:",
+      "opzioni": ["5 mq", "10 mq", "15 mq", "20 mq"],
+      "risposta_corretta": "10 mq"
+    },
+    {
+      "id": 411,
+      "domanda": "La superficie minima stabilita per un alloggio monolocale abitato da 2 persone è pari a:",
+      "opzioni": ["28 mq", "38 mq", "42 mq", "56 mq"],
+      "risposta_corretta": "38 mq"
+    },
+    {
+      "id": 412,
+      "domanda": "Nello schema delle RSA, qual è la quota spaziale indicata per il locale di culto?",
+      "opzioni": ["2,5 mq", "15 mq", "22 mq", "35 mq"],
+      "risposta_corretta": "2,5 mq"
+    },
+    {
+      "id": 413,
+      "domanda": "Qual è la fascia di superficie minima per un nucleo familiare composto da 3 persone?",
+      "opzioni": ["28 mq", "38 mq", "42-56 mq", "56-66 mq"],
+      "risposta_corretta": "42-56 mq"
+    },
+    {
+      "id": 414,
+      "domanda": "Nello schema dei Servizi di quartieri per p.a. (posto alloggio), i servizi ricreativi, culturali ed amministrativi richiedono ciascuno una quota pari a:",
+      "opzioni": ["5 mq/p.a.", "12,5 mq/p.a.", "22.5 mq/p.a.", "38 mq/p.a."],
+      "risposta_corretta": "22.5 mq/p.a."
+    },
+    {
+      "id": 415,
+      "domanda": "Qual è la superficie richiesta per un taglio interno di casa per 5 persone secondo il D.M. 1975?",
+      "opzioni": ["56-66 mq", "66-76 mq", "76-86 mq", "86 mq o superiore"],
+      "risposta_corretta": "66-76 mq"
+    }
+  ],
+  "livello_5": [
+    {
+      "id": 501,
+      "domanda": "Secondo il D.P.R. 14 Gennaio 1997, qual deve essere la larghezza netta minima del corridoio distributivo nel piano tipo dei reparti di degenza?",
+      "opzioni": ["2,40 metri", "3,00 metri", "3,5 metri", "4,5 metri"],
+      "risposta_corretta": "3,5 metri"
+    },
+    {
+      "id": 502,
+      "domanda": "Nello schema del Pronto Soccorso, qual è la dimensione minima in mq richiesta per le sale da visita medica?",
+      "opzioni": ["9 mq", "15 mq", "20 mq", "29 mq"],
+      "risposta_corretta": "15 mq"
+    },
+    {
+      "id": 503,
+      "domanda": "Secondo i requisiti del D.P.R. 14 Gennaio 1997 per le camere di degenza ospedaliere, qual è la superficie minima netta da garantire per ciascun posto letto (persona)?",
+      "opzioni": ["6 mq a persona", "9 mq a persona", "12 mq a persona", "15 mq a persona"],
+      "risposta_corretta": "6 mq a persona"
+    },
+    {
+      "id": 504,
+      "domanda": "Qual è la tipologia morfologica/distributiva standard per gli ospedali moderni indicata nel testo?",
+      "opzioni": ["Monoblocco verticale isolato", "Ospedale a padiglioni separati", "Tipologia A PIASTRA con 2-3 piani interrati e blocchi degenze sopraelevati", "Sviluppo lineare continuo a pettine"],
+      "risposta_corretta": "Tipologia A PIASTRA con 2-3 piani interrati e blocchi degenze sopraelevati"
+    },
+    {
+      "id": 505,
+      "domanda": "Cos'è la 'Hospital Street' citata nella progettazione dei complessi ospedalieri?",
+      "opzioni": ["La via stradale esterna per le ambulanze", "Una galleria o percorso interno di connessione e distribuzione principale", "Il piazzale antistante al Pronto Soccorso", "L'elisuperficie di emergenza sul tetto"],
+      "risposta_corretta": "Una galleria o percorso interno di connessione e distribuzione principale"
+    },
+    {
+      "id": 506,
+      "domanda": "Nelle stanze dei medici/visita del piano tipo degenze, qual è la dimensione planimetrica standard ricorrente segnata nei blocchi?",
+      "opzioni": ["9 mq", "15 mq", "20 mq", "29 mq"],
+      "risposta_corretta": "29 mq"
+    },
+    {
+      "id": 507,
+      "domanda": "Quali elementi di collegamento verticale devono essere obbligatoriamente diversificati e separati per flussi nell'ospedale?",
+      "opzioni": ["Solo scale antincendio", "Ascensori, montacarichi e montalettighe", "Rampe pedonali esterne", "Nessuna separazione richiesta"],
+      "risposta_corretta": "Ascensori, montacarichi e montalettighe"
+    },
+    {
+      "id": 508,
+      "domanda": "Nel blocco del Poliambulatorio, la sala d'accettazione e archivio prevede una configurazione minima con:",
+      "opzioni": ["1 postazione e 10 mq", "2 postazioni e 25 mq", "4 postazioni e 50 mq", "Nessuna specifica numerica"],
+      "risposta_corretta": "2 postazioni e 25 mq"
+    },
+    {
+      "id": 509,
+      "domanda": "Nel piano tipo dei reparti di degenza, lo spazio dedicato all'attesa dei parenti ha un'ampiezza di:",
+      "opzioni": ["9 mq", "15 mq", "20 mq", "29 mq"],
+      "risposta_corretta": "29 mq"
+    },
+    {
+      "id": 510,
+      "domanda": "In quale livello o zona dell'ospedale a piastra si collocano preferibilmente la mensa, la lavanderia, la radiologia e l'obitorio?",
+      "opzioni": ["Nei livelli sotterranei (2-3 piani)", "Al piano terra vicino all'atrio", "Nei blocchi elevati sopra la piastra", "In edifici distaccati nel parco"],
+      "risposta_corretta": "Nei livelli sotterranei (2-3 piani)"
+    },
+    {
+      "id": 511,
+      "domanda": "Nel Pronto Soccorso, lo spazio dell'astanteria prevede una dotazione minima indicata in pianta pari a:",
+      "opzioni": ["15 mq", "20 mq", "60 mq con letti", "100 mq"],
+      "risposta_corretta": "60 mq con letti"
+    },
+    {
+      "id": 512,
+      "domanda": "Qual è la dimensione minima assoluta richiesta per una singola camera di degenza ospedaliera indipendente?",
+      "opzioni": ["6 mq", "9 mq", "12 mq", "18 mq"],
+      "risposta_corretta": "9 mq"
+    },
+    {
+      "id": 513,
+      "domanda": "Quale locale del reparto operatorio è deputato alla preparazione del personale sanitario prima dell'ingresso in sala?",
+      "opzioni": ["Filtro pazienti", "Sala risveglio", "Sala preparazione medici / infermieri", "Deposito sporco"],
+      "risposta_corretta": "Sala preparazione medici / infermieri"
+    },
+    {
+      "id": 514,
+      "domanda": "All'ingresso del Poliambulatorio o del Pronto Soccorso, l'atrio deve integrare un locale strategico denominato:",
+      "opzioni": ["Infermieria di blocco", "Atrio con Triage", "Sala ginnastica prenatatoria", "Camera ardente"],
+      "risposta_corretta": "Atrio con Triage"
+    },
+    {
+      "id": 515,
+      "domanda": "Nei percorsi del Pronto Soccorso, la larghezza minima del corridoio deve rispecchiare lo standard di degenza pari a:",
+      "opzioni": ["2,4 metri", "2,7 metri", "3,5 metri", "4,0 metri"],
+      "risposta_corretta": "3,5 metri"
+    }
+  ],
+  "livello_6": [
+    {
+      "id": 601,
+      "domanda": "In un comune con popolazione superiore a 10.000 abitanti, una struttura commerciale con superficie di vendita pari a 1.500 mq viene classificata come:",
+      "opzioni": ["Esercizio di vicinato", "Media struttura di vendita", "Grande struttura di vendita", "Centro commerciale"],
+      "risposta_corretta": "Media struttura di vendita"
+    },
+    {
+      "id": 602,
+      "domanda": "Nella progettazione dei negozi tradizionali al dettaglio, qual è l'altezza utile interna minima richiesta?",
+      "opzioni": ["2,70 metri", "3,00 metri", "3,20 metri", "3,50 metri"],
+      "risposta_corretta": "3,20 metri"
+    },
+    {
+      "id": 603,
+      "domanda": "Secondo il D. Lgs 114/1998, qual è la soglia massima di superficie di vendita per un esercizio di vicinato nei comuni con meno di 10.000 abitanti?",
+      "opzioni": ["150 mq", "250 mq", "500 mq", "1500 mq"],
+      "risposta_corretta": "150 mq"
+    },
+    {
+      "id": 604,
+      "domanda": "Come viene definita dal punto di vista normativo la tipologia del 'Chiosco' commerciale?",
+      "opzioni": ["Struttura con superficie superiore a 500 mq", "Struttura di minimo 15-20 mq senza accesso al pubblico, con vendita diretta al banco", "Unione di più esercizi con parcheggio comune interrato", "Locale commerciale ad altezza ridotta pari a 2,70 m"],
+      "risposta_corretta": "Struttura di minimo 15-20 mq senza accesso al pubblico, con vendita diretta al banco"
+    },
+    {
+      "id": 605,
+      "domanda": "Quali sono i limiti dimensionali che definiscono la sottocategoria merceologica del 'Minimarket'?",
+      "opzioni": ["Meno di 150 mq", "Tra 250 e 500 mq", "Oltre 1500 mq", "Sempre fisso a 1000 mq"],
+      "risposta_corretta": "Tra 250 e 500 mq"
+    },
+    {
+      "id": 606,
+      "domanda": "Nello schema planimetrico tipo di un supermercato da 1500 mq, qual è l'estensione del fronte vendita consigliato?",
+      "opzioni": ["Da 1 a 2 metri", "Da 4 a 30 metri", "Sempre 50 metri esatti", "Non sono previsti limiti"],
+      "risposta_corretta": "Da 4 a 30 metri"
+    },
+    {
+      "id": 607,
+      "domanda": "In un comune con popolazione superiore a 10.000 abitanti, gli esercizi di vicinato possono raggiungere una superficie massima di vendita di:",
+      "opzioni": ["150 mq", "250 mq", "500 mq", "1500 mq"],
+      "risposta_corretta": "250 mq"
+    },
+    {
+      "id": 608,
+      "domanda": "Nello schema dei servizi per il personale del supermercato, quali sono le dimensioni indicate in pianta per la cella o spazio di servizio base?",
+      "opzioni": ["1,5m x 1,5m", "3,20m x 3,20m", "5,5m x 7,5m x 2,0m", "10m x 10m"],
+      "risposta_corretta": "5,5m x 7,5m x 2,0m"
+    },
+    {
+      "id": 609,
+      "domanda": "Per i chioschi commerciali, qual è l'altezza standard del banco di vendita prescritta nel testo?",
+      "opzioni": ["70 cm", "90 cm", "120 cm", "150 cm"],
+      "risposta_corretta": "120 cm"
+    },
+    {
+      "id": 610,
+      "domanda": "Quale caratteristica distingue il minimarket o il supermercato rispetto al negozio al dettaglio tradizionale secondo il testo?",
+      "opzioni": ["Richiede soffitti alti 5 metri", "La vetrina d'ingresso non è considerata fondamentale", "Non necessita di wc disabili", "Deve sorgere solo in zona agricola E"],
+      "risposta_corretta": "La vetrina d'ingresso non è considerata fondamentale"
+    },
+    {
+      "id": 611,
+      "domanda": "Nei chioschi commerciali, qual deve essere la dimensione minima del piano di lavoro interno?",
+      "opzioni": ["Maggiore di 30 cm", "Maggiore di 50 cm", "Maggiore di 70 cm", "Fisso 100 cm"],
+      "risposta_corretta": "Maggiore di 70 cm"
+    },
+    {
+      "id": 612,
+      "domanda": "In base allo schema planimetrico del supermercato tipo, la zona sul retro dell'edificio è deputata a:",
+      "opzioni": ["Ricezione merci e magazzino stock con celle refrigerate", "Ingresso principale dei clienti con bussole", "Parcheggio a raso numerato", "Area giochi per bambini"],
+      "risposta_corretta": "Ricezione merci e magazzino stock con celle refrigerate"
+    },
+    {
+      "id": 613,
+      "domanda": "Qual è la larghezza minima indicata per la zona di disimpegno/filtro dell'antibagno nei servizi dei negozi?",
+      "opzioni": ["90 cm", "120 cm", "150 cm", "200 cm"],
+      "risposta_corretta": "150 cm"
+    },
+    {
+      "id": 614,
+      "domanda": "Nelle medie strutture di vendita in comuni con popolazione inferiore a 10.000 abitanti, la superficie di vendita massima è:",
+      "opzioni": ["150 mq", "250 mq", "1500 mq", "2500 mq"],
+      "risposta_corretta": "1500 mq"
+    },
+    {
+      "id": 615,
+      "domanda": "Nei chioschi commerciali, la sporgenza del piano d'appoggio per i clienti deve essere:",
+      "opzioni": ["Maggiore di 10 cm", "Maggiore di 20 cm", "Maggiore di 30 cm", "Maggiore di 60 cm"],
+      "risposta_corretta": "Maggiore di 30 cm"
+    }
+  ],
+  "livello_7": [
+    {
+      "id": 701,
+      "domanda": "Secondo i decreti ministeriali sull'edilizia scolastica (D.M. 18/12/1975), qual è il Rapporto Aeroilluminante (RAI) minimo da garantire nelle aule?",
+      "opzioni": ["1/10", "1/8", "1/5", "1/3"],
+      "risposta_corretta": "1/5"
+    },
+    {
+      "id": 702,
+      "domanda": "Nella scuola secondaria di secondo grado (superiori), qual è la superficie minima per alunno richiesta all'interno delle aule?",
+      "opzioni": ["1,8 mq/alunno", "1,96 mq/alunno", "2,8 mq/alunno", "1,4 mq/alunno"],
+      "risposta_corretta": "1,96 mq/alunno"
+    },
+    {
+      "id": 703,
+      "domanda": "Qual è la distanza di distacco minima che un edificio scolastico deve mantenere rispetto ai fabbricati circostanti?",
+      "opzioni": ["6 metri", "10 metri", "12 metri oppure 4/3 dell'altezza dell'edificio vicino", "20 metri"],
+      "risposta_corretta": "12 metri oppure 4/3 dell'altezza dell'edificio vicino"
+    },
+    {
+      "id": 704,
+      "domanda": "Nelle aule scolastiche delle scuole elementari e medie (secondaria di primo grado), la superficie minima netta per utente è fissata a:",
+      "opzioni": ["1,4 mq/alunno", "1,8 mq/alunno", "1,96 mq/alunno", "2,5 mq/alunno"],
+      "risposta_corretta": "1,8 mq/alunno"
+    },
+    {
+      "id": 705,
+      "domanda": "Qual è l'altezza minima interna richiesta per le aule didattiche ordinarie secondo il D.M. 18/12/1975?",
+      "opzioni": ["2,70 metri", "3,00 metri", "3,20 metri", "3,50 metri"],
+      "risposta_corretta": "3,00 metri"
+    },
+    {
+      "id": 706,
+      "domanda": "Per garantire una corretta esposizione eliotermica e ambientale, il lotto dell'area scolastica deve avere un rapporto di copertura/orientamento dell'area pari a:",
+      "opzioni": ["≥ 1/5", "≥ 1/8", "≥ 1/3", "≥ 1/2"],
+      "risposta_corretta": "≥ 1/3"
+    },
+    {
+      "id": 707,
+      "domanda": "Nello specifico degli asili nido, i locali per la sezione Lattanti (0-12 mesi) devono garantire una superficie minima per bambino pari a:",
+      "opzioni": ["1,8 mq/bambino", "4,5 mq/bambino", "7-8 mq/bambino", "9-10 mq/bambino"],
+      "risposta_corretta": "7-8 mq/bambino"
+    },
+    {
+      "id": 708,
+      "domanda": "Per le sezioni Semidivezzi (12-24 mesi) e Divezzi (24-36 mesi) negli asili nido, qual è la dotazione di superficie minima richiesta?",
+      "opzioni": ["1,96 mq/bambino", "5 mq/bambino", "7-8 mq/bambino", "9-10 mq/bambino"],
+      "risposta_corretta": "9-10 mq/bambino"
+    },
+    {
+      "id": 709,
+      "domanda": "Nello standard dei parcheggi pertinenziali per le scuole, qual è la quota di sosta da garantire rispetto alla Superficie Lorda di Pavimento (SLP)?",
+      "opzioni": ["1 mq / 1 mc", "1 mq / 5 mq di SLP", "1 mq / 10 mq di SLP", "8 mq / abitante"],
+      "risposta_corretta": "1 mq / 5 mq di SLP"
+    },
+    {
+      "id": 710,
+      "domanda": "Nelle scuole secondarie, la quota minima per i servizi igienici calcolata per alunno corrisponde a:",
+      "opzioni": ["0,01 mq/alunno", "0,07 mq/alunno", "0,5 mq/alunno", "1,0 mq/alunno"],
+      "risposta_corretta": "0,07 mq/alunno"
+    },
+    {
+      "id": 711,
+      "domanda": "Quale tipologia di palestra minima (dimensione 200 mq) è richiesta per le scuole secondarie di primo grado con meno di 20 classi?",
+      "opzioni": ["Palestra tipo A1", "Palestra tipo A2", "Palestra tipo B1", "Palestra tipo B2"],
+      "risposta_corretta": "Palestra tipo A1"
+    },
+    {
+      "id": 712,
+      "domanda": "Nello schema degli asili nido, qual è il numero minimo di bambini per cui è consigliata la progettazione del lotto (es. lotto da 1500 mq)?",
+      "opzioni": ["10 bambini", "25-30 bambini", "60 bambini", "100 bambini"],
+      "risposta_corretta": "25-30 bambini"
+    },
+    {
+      "id": 713,
+      "domanda": "Qual è il limite massimo di alunni consentito per singola classe nelle scuole superiori (secondaria di secondo grado)?",
+      "opzioni": ["15 alunni", "20 alunni", "26 alunni", "30 alunni"],
+      "risposta_corretta": "26 alunni"
+    },
+    {
+      "id": 714,
+      "domanda": "Per le scuole superiori che hanno tra le 23 e le 60 classi, quale tipologia di palestra da 600 mq è obbligatoria?",
+      "opzioni": ["Palestra tipo A1", "Palestra tipo A2", "Palestra tipo B1", "Palestra tipo B2"],
+      "risposta_corretta": "Palestra tipo B1"
+    },
+    {
+      "id": 715,
+      "domanda": "La dotazione di stalli per portatori di handicap nei parcheggi delle scuole prevede la quota di:",
+      "opzioni": ["1 stallo ogni 10 stalli", "1 stallo ogni 40 stalli", "2 stalli ogni 100 stalli", "Nessuna riserva obbligatoria"],
+      "risposta_corretta": "1 stallo ogni 40 stalli"
+    }
+  ],
+  "livello_8": [
+    {
+      "id": 801,
+      "domanda": "Nello schema distributivo del complesso cimiteriale, a quanto ammonta la riduzione della fascia di rispetto stradale/ambientale per i piccoli comuni?",
+      "opzioni": ["50 metri", "100 metri", "200 metri", "2,5 metri"],
+      "risposta_corretta": "50 metri"
+    },
+    {
+      "id": 802,
+      "domanda": "Nella progettazione di una sala conferenze (edifici contenitori), qual è lo spazio volumetrico minimo richiesto per ogni persona?",
+      "opzioni": ["1,5/2 mc/persona", "4-8 mc/persona", "10-25 mc/persona", "20-25 mc/persona"],
+      "risposta_corretta": "4-8 mc/persona"
+    },
+    {
+      "id": 803,
+      "domanda": "Qual è la fascia di rispetto standard da applicare attorno ai cimiteri nei comuni con popolazione superiore a 200.000 abitanti?",
+      "opzioni": ["50 metri", "100 metri", "150 metri", "200 metri"],
+      "risposta_corretta": "200 metri"
+    },
+    {
+      "id": 804,
+      "domanda": "Nella progettazione delle sale conferenze o teatri, qual è la superficie minima in mq richiesta per spettatore?",
+      "opzioni": ["0,5 mq/persona", "1,5/2 mq/persona", "3,5 mq/persona", "5 mq/persona"],
+      "risposta_corretta": "1,5/2 mq/persona"
+    },
+    {
+      "id": 805,
+      "domanda": "In un complesso cimiteriale soggetto a interventi esclusivi di ampliamento, la fascia di rispetto può essere ridotta a:",
+      "opzioni": ["2,5 metri", "50 metri", "100 metri", "150 metri"],
+      "risposta_corretta": "100 metri"
+    },
+    {
+      "id": 806,
+      "domanda": "Nella disposizione delle sedute di una sala conferenze, qual è la larghezza minima della singola sedia e la distanza minima tra gli schienali delle file?",
+      "opzioni": ["Largh. 40 cm | Dist. 80 cm", "Largh. 50 cm | Dist. 100-120 cm", "Largh. 60 cm | Dist. 150 cm", "Largh. 45 cm | Dist. 90 cm"],
+      "risposta_corretta": "Largh. 50 cm | Dist. 100-120 cm"
+    },
+    {
+      "id": 807,
+      "domanda": "Qual è l'altezza minima richiesta per il muro di recinzione perimetrale del complesso cimiteriale?",
+      "opzioni": ["1,80 metri", "2,20 metri", "2,50 metri", "3,00 metri"],
+      "risposta_corretta": "2,50 metri"
+    },
+    {
+      "id": 808,
+      "domanda": "Fino a quanti spettatori seduti una sala conferenze può prevedere un minimo di sole 2 uscite di sicurezza?",
+      "opzioni": ["Fino a 50 spettatori", "Fino a 100 spettatori", "Fino a 150 spettatori", "Fino a 300 spettatori"],
+      "risposta_corretta": "Fino a 150 spettatori"
+    },
+    {
+      "id": 809,
+      "domanda": "Nello schema funzionale della chiesa cattolica parrocchiale, la sagrestia deve garantire una superficie minima di:",
+      "opzioni": ["10 mq", "15 mq", "25/30 mq", "50 mq"],
+      "risposta_corretta": "25/30 mq"
+    },
+    {
+      "id": 810,
+      "domanda": "Qual è l'altezza minima interna indicata per l'aula ecclesiale di una chiesa all'interno degli schemi dimensionali del Livello 8?",
+      "opzioni": ["3 metri", "5 metri", "6 metri", "Oltre 8 metri"],
+      "risposta_corretta": "5 metri"
+    },
+    {
+      "id": 811,
+      "domanda": "Nello schema planimetrico del cimitero, la camera mortuaria con le celle frigorifere presenta moduli standard di:",
+      "opzioni": ["1,50 m", "2,25 m", "3,75 m", "5,00 m"],
+      "risposta_corretta": "3,75 m"
+    },
+    {
+      "id": 812,
+      "domanda": "Nello schema della Sinagoga Ebraica, verso quale punto cardinale deve essere preferibilmente orientata l'area dei fedeli?",
+      "opzioni": ["Nord", "Sud", "Est", "Ovest"],
+      "risposta_corretta": "Est"
+    },
+    {
+      "id": 813,
+      "domanda": "Nella chiesa cattolica, qual è la larghezza minima richiesta per il corridoio centrale di sfilamento tra le panche?",
+      "opzioni": ["1,00 metro", "1,20 metri", "1,50 metri", "2,00 metri"],
+      "risposta_corretta": "1,50 metri"
+    },
+    {
+      "id": 814,
+      "domanda": "Nello schema del cimitero, il locale crematorio ha dimensioni planimetriche di riferimento variabili tra:",
+      "opzioni": ["3x3m e 5x5m", "10x20m e 18x20m", "25x25m e 30x50m", "Fisso sempre 5x10m"],
+      "risposta_corretta": "10x20m e 18x20m"
+    },
+    {
+      "id": 815,
+      "domanda": "La cappella per le funzioni feriali integrata nel complesso parrocchiale ha un'estensione indicata di:",
+      "opzioni": ["15-20 mq", "25-30 mq", "50-100 mq", "Oltre 200 mq"],
+      "risposta_corretta": "50-100 mq"
+    }
+  ],
+  "livello_9": [
+    {
+      "id": 901,
+      "domanda": "Nella pianificazione dei nuclei funzionali dei centri sportivi, quali sono i rapporti minimi richiesti per l'atrio e il magazzino rispetto alla superficie della palestra?",
       "opzioni": [
-        "Fissa a 10 metri indipendentemente dall'altezza",
-        "Pari all'angolo di 45° dall'edificio più alto",
-        "Pari all'altezza dell'edificio più basso",
-        "Pari alla metà della somma delle altezze"
+        "Atrio > 1/10 e Magazzino 1/25",
+        "Atrio > 1/25 e Magazzino 1/10",
+        "Atrio > 1/50 e Magazzino 1/5",
+        "Atrio fissa 20 mq e Magazzino fissa 12x12"
       ],
-      "risposta_corretta": "Pari all'angolo di 45° dall'edificio più alto"
+      "risposta_corretta": "Atrio > 1/25 e Magazzino 1/10"
     },
     {
-      "id": 102,
-      "domanda": "DOMANDA COMPLESSA: Nella progettazione di impianti sportivi, qual è la superficie minima richiesta per i servizi/atrio rispetto alla palestra?",
-      "opzioni": [
-        "Maggiore di 1/10 della palestra",
-        "Maggiore di 1/25 della palestra",
-        "Maggiore di 1/50 della palestra",
-        "Fissata a 50 mq stabili"
-      ],
-      "risposta_corretta": "Maggiore di 1/25 della palestra"
-    },
-    {
-      "id": 103,
-      "domanda": "DOMANDA COMPLESSA: Qual è la dimensione standard per l'area attività ginniche (sala PESI) indicata nel testo?",
-      "opzioni": ["10x10 metri", "12x12 metri", "14x14 metri", "15x15 metri"],
-      "risposta_corretta": "12x12 metri"
-    },
-    {
-      "id": 104,
-      "domanda": "DOMANDA COMPLESSA: Per le gare in un impianto sportivo misto, l'accesso indipendente per il pubblico deve prevedere al massimo quanti posti?",
-      "opzioni": ["5-10 posti", "15-20 posti", "50 posti", "100 posti"],
-      "risposta_corretta": "15-20 posti"
-    },
-    {
-      "id": 105,
-      "domanda": "DOMANDA COMPLESSA: Nelle piscine, qual è la dimensione esatta di una vasca a percorso lungo con 10-12 corsie?",
-      "opzioni": ["25 x 13 metri", "50 x 21,25 metri", "25 x 9 metri", "50 x 25 metri"],
+      "id": 902,
+      "domanda": "Nello specifico delle piscine al coperto, quali sono le dimensions in pianta stabilite per una vasca a percorso lungo da 10-12 corsie?",
+      "opzioni": ["25 x 13 metri", "25 x 9/11 metri", "50 x 21,25 metri", "50 x 25 metri"],
       "risposta_corretta": "50 x 21,25 metri"
     },
     {
-      "id": 106,
-      "domanda": "DOMANDA COMPLESSA: Qual è la profondità standard (in cm) indicata per la vasca a percorso lungo (50m)?",
-      "opzioni": ["90 - 150 cm", "100 - 200 cm", "180 - 120 cm", "Sempre costante a 150 cm"],
-      "risposta_corretta": "180 - 120 cm"
+      "id": 903,
+      "domanda": "Qual è l'altezza minima interna richiesta per le palestre con superficie complessiva superiore a 250 mq?",
+      "opzioni": ["5,00 metri", "7,00 metri", "9,00 metri", "12,50 metri"],
+      "risposta_corretta": "12,50 metri"
     },
     {
-      "id": 107,
-      "domanda": "DOMANDA COMPLESSA: Per una vasca a percorso breve da 25 x 13 metri (6/8 corsie), qual è la profondità indicata?",
-      "opzioni": ["50 - 120 cm", "90 - 180 cm", "120 - 220 cm", "Sempre 200 cm"],
-      "risposta_corretta": "90 - 180 cm"
+      "id": 904,
+      "domanda": "Per palestre o centri fitness con superficie fino a 250 mq, qual è l'altezza minima interna ammessa?",
+      "opzioni": ["3,50 metri", "4,50 metri", "7,00 metri", "9,00 metri"],
+      "risposta_corretta": "7,00 metri"
     },
     {
-      "id": 108,
-      "domanda": "DOMANDA COMPLESSA: Nello spazio per attività ginniche, quale dimensione viene indicata per le discipline a corpo libero o arti marziali (es. Judo)?",
-      "opzioni": ["10x10 metri", "12x12 metri", "14x14 metri", "18x18 metri"],
-      "risposta_corretta": "14x14 metri"
+      "id": 905,
+      "domanda": "Nello schema delle aree per attività ginniche pesi, quali sono le dimensioni in pianta indicate per la sala pesi?",
+      "opzioni": ["6 x 6 metri", "10 x 10 metri", "12 x 12 metri", "14 x 14 metri"],
+      "risposta_corretta": "12 x 12 metri"
     },
     {
-      "id": 109,
-      "domanda": "DOMANDA COMPLESSA: A quanto deve corrispondere l'altezza minima interna di una palestra fino a 250 mq di superficie?",
-      "opzioni": ["3,5 metri", "5,0 metri", "7,0 metri", "12,5 metri"],
-      "risposta_corretta": "7,0 metri"
+      "id": 906,
+      "domanda": "Per lo svolgimento di attività ginniche a corpo libero e arti marziali (es. Judo o lotta), la pianta tipo ha dimensioni pari a:",
+      "opzioni": ["10 x 10 metri", "12 x 12 metri", "14 x 14 metri", "20 x 20 metri"],
+      "risposta_corretta": "14 x 14 metri"
     },
     {
-      "id": 110,
-      "domanda": "DOMANDA COMPLESSA: Se la palestra supera i 250 mq di superficie, qual è l'altezza minima richiesta indicata nel manuale?",
-      "opzioni": ["7,0 metri", "9,5 metri", "12,5 metri", "15,0 metri"],
-      "risposta_corretta": "12,5 metri"
+      "id": 907,
+      "domanda": "Nelle piscine, la vasca a 'percorso breve' (sviluppata su 6-8 corsie) presenta dimensioni planimetriche standard di:",
+      "opzioni": ["25 x 9/11 metri", "25 x 13 metri", "50 x 21,25 metri", "50 x 25 metri"],
+      "risposta_corretta": "25 x 13 metri"
     },
     {
-      "id": 111,
-      "domanda": "DOMANDA COMPLESSA: Nelle specifiche del magazzino annesso alla palestra, qual deve essere la sua superficie minima?",
-      "opzioni": ["1/5 della palestra", "1/10 della palestra", "1/25 della palestra", "Fissa a 20 mq"],
-      "risposta_corretta": "1/10 della palestra"
+      "id": 908,
+      "domanda": "Quali sono le dimensioni minime in pianta richieste per un campo da gioco regolamentare di Pallavolo?",
+      "opzioni": ["15 x 9 metri", "15 x 24 metri", "18 x 30 metri", "18,27 x 36,57 metri"],
+      "risposta_corretta": "15 x 24  metri"
     },
     {
-      "id": 112,
-      "domanda": "DOMANDA COMPLESSA: Quale sezione del centro benessere deve essere accessibile sia dall'atrio d'ingresso che direttamente dagli spogliatoi?",
-      "opzioni": ["La sala medica", "La zona piscina", "Il centro benessere stesso", "L'area commerciale"],
-      "risposta_corretta": "Il centro benessere stesso"
+      "id": 909,
+      "domanda": "Un campo da gioco regolamentare per il Tennis all'aperto richiede uno spazio di rispetto e gioco totale pari a:",
+      "opzioni": ["15 x 24 metri", "18 x 30 metri", "18,27 x 36,57 metri", "50 x 100 metri"],
+      "risposta_corretta": "18,27 x 36,57 metri"
+    },
+    {
+      "id": 910,
+      "domanda": "Quali sono le dimensioni d'area standard indicate per un campo da calcio regolamentare inserito nel complesso sportivo esterno?",
+      "opzioni": ["18 x 36 metri", "45 x 90 metri", "50 x 100 metri", "60 x 120 metri"],
+      "risposta_corretta": "50 x 100 metri"
+    },
+    {
+      "id": 911,
+      "domanda": "Nelle piscine coperte, le vasche destinate esclusivamente all'allenamento hanno dimensioni tipiche pari a:",
+      "opzioni": ["25 x 9/11 metri", "25 x 13 metri", "50 x 21,25 metri", "12 x 12 metri"],
+      "risposta_corretta": "25 x 9/11 metri"
+    },
+    {
+      "id": 912,
+      "domanda": "Nello schema funzionale degli spogliatoi per gare dei centri sportivi, l'accesso per il pubblico deve prevedere:",
+      "opzioni": ["Un ingresso in comune obbligatorio", "Un accesso indipendente con un numero massimo di 15-20 posti", "Un'altezza interna ridotta a 2,40 m", "La collocazione esclusiva nei piani sotterranei"],
+      "risposta_corretta": "Un accesso indipendente con un numero massimo di 15-20 posti"
+    },
+    {
+      "id": 913,
+      "domanda": "La profondità dell'acqua nella vasca olimpica a percorso lungo da 50 metri decresce progressivamente da:",
+      "opzioni": ["Da 90 cm a 180 cm", "Da 120 cm a 180 cm", "Da 150 cm a 300 cm", "Fissa costante a 200 cm"],
+      "risposta_corretta": "Da 120 cm a 180 cm"
+    },
+    {
+      "id": 914,
+      "domanda": "Da quali locali deve risultare direttamente accessibile il centro benessere/spa interno al centro sportivo?",
+      "opzioni": ["Solo dall'esterno del lotto", "Sia dall'atrio d'ingresso che dagli spogliatoi degli utenti", "Esclusivamente dalla sala medica", "Dalla zona commerciale retrostante"],
+      "risposta_corretta": "Sia dall'atrio d'ingresso che dagli spogliatoi degli utenti"
+    },
+    {
+      "id": 915,
+      "domanda": "Qual è la variazione di profondità prescritta per la vasca a percorso breve da 25x13 metri?",
+      "opzioni": ["Da 60 cm a 120 cm", "Da 90 cm a 180 cm", "Da 120 cm a 180 cm", "Costante a 150 cm"],
+      "risposta_corretta": "Da 90 cm a 180 cm"
     }
   ]
 }
