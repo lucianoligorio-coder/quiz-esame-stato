@@ -20,7 +20,7 @@
     },
     {
       "id": 4,
-      "domanda": "Secondo il codice civile e i regolamenti edilizi standard riportati, qual è la distanza generale minima da confine per i fabbricati?",
+      "domanda": "Secondo il codice civile e i regolamenti edilizi standard, qual è la distanza generale minima da confine per i fabbricati?",
       "opzioni": ["1,5 metri", "3 metri", "5 metri", "10 metri"],
       "risposta_corretta": "5 metri"
     },
@@ -38,7 +38,7 @@
     },
     {
       "id": 7,
-      "domanda": "Nello schema di orientamento ottimale dell'edificio, dove dovrebbero essere collocati i servizi?",
+      "domanda": "Nello schema di orientamento ottimale dell'edificio, dove dovrebbero essere preferibilmente collocati i servizi?",
       "opzioni": ["A Sud", "A Est", "A Ovest", "A Nord"],
       "risposta_corretta": "A Nord"
     },
@@ -59,6 +59,36 @@
       "domanda": "Per una strada urbana con larghezza superiore a 15 metri, qual è il distacco minimo?",
       "opzioni": ["7,5 metri", "10 metri", "12,5 metri", "15 metri"],
       "risposta_corretta": "10 metri"
+    },
+    {
+      "id": 11,
+      "domanda": "Quale altezza massima (hmax) definisce le piante a 'medio fusto' secondo il codice civile?",
+      "opzioni": ["1,5 metri", "2 metri", "3 metri", "5 metri"],
+      "risposta_corretta": "3 metri"
+    },
+    {
+      "id": 12,
+      "domanda": "Qual è il distacco minimo da confine per le alberature a medio fusto?",
+      "opzioni": ["0,5 metri", "1,5 metri", "3 metri", "5 metri"],
+      "risposta_corretta": "1,5 metri"
+    },
+    {
+      "id": 13,
+      "domanda": "Nelle zone B, D, E e F, qual è il limite minimo inderogabile di distanza tra pareti finestrate e pareti di edifici antistanti?",
+      "opzioni": ["6 metri", "8 metri", "10 metri", "12 metri"],
+      "risposta_corretta": "10 metri"
+    },
+    {
+      "id": 14,
+      "domanda": "Nel diagramma dell'asse eliotermico, oltre a Nord-Sud, quale altro orientamento intermedio viene considerato accettabile?",
+      "opzioni": ["Est-Ovest", "Nord/Nord-Est", "Sud-Est", "Nessuno"],
+      "risposta_corretta": "Nord/Nord-Est"
+    },
+    {
+      "id": 15,
+      "domanda": "L'orientamento ottimale per massimizzare l'apporto solare ed eliotermico nelle stanze principali è:",
+      "opzioni": ["Completamente a Nord", "Asse eliotermico Nord-Sud", "Completamente a Ovest", "Diagonale perfetta a Nord-Ovest"],
+      "risposta_corretta": "Asse eliotermico Nord-Sud"
     }
   ],
   "livello_2": [
@@ -92,15 +122,57 @@
     },
     {
       "id": 104,
-      "domanda": "DOMANDA COMPLESSA: Per gare con impianto sportivo, l'accesso indipendente per il pubblico deve prevedere al massimo quanti posti?",
+      "domanda": "DOMANDA COMPLESSA: Per le gare in un impianto sportivo misto, l'accesso indipendente per il pubblico deve prevedere al massimo quanti posti?",
       "opzioni": ["5-10 posti", "15-20 posti", "50 posti", "100 posti"],
       "risposta_corretta": "15-20 posti"
     },
     {
       "id": 105,
-      "domanda": "DOMANDA COMPLESSA: Nelle piscine, qual è la dimensione di una vasca a percorso lungo con 10-12 corsie?",
+      "domanda": "DOMANDA COMPLESSA: Nelle piscine, qual è la dimensione esatta di una vasca a percorso lungo con 10-12 corsie?",
       "opzioni": ["25 x 13 metri", "50 x 21,25 metri", "25 x 9 metri", "50 x 25 metri"],
       "risposta_corretta": "50 x 21,25 metri"
+    },
+    {
+      "id": 106,
+      "domanda": "DOMANDA COMPLESSA: Qual è la profondità standard (in cm) indicata per la vasca a percorso lungo (50m)?",
+      "opzioni": ["90 - 150 cm", "100 - 200 cm", "180 - 120 cm", "Sempre costante a 150 cm"],
+      "risposta_corretta": "180 - 120 cm"
+    },
+    {
+      "id": 107,
+      "domanda": "DOMANDA COMPLESSA: Per una vasca a percorso breve da 25 x 13 metri (6/8 corsie), qual è la profondità indicata?",
+      "opzioni": ["50 - 120 cm", "90 - 180 cm", "120 - 220 cm", "Sempre 200 cm"],
+      "risposta_corretta": "90 - 180 cm"
+    },
+    {
+      "id": 108,
+      "domanda": "DOMANDA COMPLESSA: Nello spazio per attività ginniche, quale dimensione viene indicata per le discipline a corpo libero o arti marziali (es. Judo)?",
+      "opzioni": ["10x10 metri", "12x12 metri", "14x14 metri", "18x18 metri"],
+      "risposta_corretta": "14x14 metri"
+    },
+    {
+      "id": 109,
+      "domanda": "DOMANDA COMPLESSA: A quanto deve corrispondere l'altezza minima interna di una palestra fino a 250 mq di superficie?",
+      "opzioni": ["3,5 metri", "5,0 metri", "7,0 metri", "12,5 metri"],
+      "risposta_corretta": "7,0 metri"
+    },
+    {
+      "id": 110,
+      "domanda": "DOMANDA COMPLESSA: Se la palestra supera i 250 mq di superficie, qual è l'altezza minima richiesta indicata nel manuale?",
+      "opzioni": ["7,0 metri", "9,5 metri", "12,5 metri", "15,0 metri"],
+      "risposta_corretta": "12,5 metri"
+    },
+    {
+      "id": 111,
+      "domanda": "DOMANDA COMPLESSA: Nelle specifiche del magazzino annesso alla palestra, qual deve essere la sua superficie minima?",
+      "opzioni": ["1/5 della palestra", "1/10 della palestra", "1/25 della palestra", "Fissa a 20 mq"],
+      "risposta_corretta": "1/10 della palestra"
+    },
+    {
+      "id": 112,
+      "domanda": "DOMANDA COMPLESSA: Quale sezione del centro benessere deve essere accessibile sia dall'atrio d'ingresso che direttamente dagli spogliatoi?",
+      "opzioni": ["La sala medica", "La zona piscina", "Il centro benessere stesso", "L'area commerciale"],
+      "risposta_corretta": "Il centro benessere stesso"
     }
   ]
 }
