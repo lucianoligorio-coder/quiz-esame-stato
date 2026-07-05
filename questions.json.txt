@@ -1,0 +1,106 @@
+{
+  "livello_1": [
+    {
+      "id": 1,
+      "domanda": "Qual è la distanza minima tra fabbricati all'interno della Zona B ai sensi del D.M. 1444/1968?",
+      "opzioni": ["5 metri", "7,5 metri", "10 metri", "12 metri"],
+      "risposta_corretta": "10 metri"
+    },
+    {
+      "id": 2,
+      "domanda": "Per una strada urbana con larghezza inferiore a 7 metri, qual è il distacco minimo da rispettare?",
+      "opzioni": ["5 metri", "7,5 metri", "10 metri", "Non è previsto alcun distacco"],
+      "risposta_corretta": "5 metri"
+    },
+    {
+      "id": 3,
+      "domanda": "Qual è la distanza dal confine da rispettare per alberature ad alto fusto (h > 3m)?",
+      "opzioni": ["0,5 metri", "1,5 metri", "3 metri", "5 metri"],
+      "risposta_corretta": "3 metri"
+    },
+    {
+      "id": 4,
+      "domanda": "Secondo il codice civile e i regolamenti edilizi standard riportati, qual è la distanza generale minima da confine per i fabbricati?",
+      "opzioni": ["1,5 metri", "3 metri", "5 metri", "10 metri"],
+      "risposta_corretta": "5 metri"
+    },
+    {
+      "id": 5,
+      "domanda": "Qual è la distanza dal confine da rispettare per le siepi con altezza massima di 2,5 metri?",
+      "opzioni": ["0,5 metri", "1 metro", "1,5 metri", "3 metri"],
+      "risposta_corretta": "0,5 metri"
+    },
+    {
+      "id": 6,
+      "domanda": "Qual è l'orientamento ottimale indicato nel manuale di progettazione per ottimizzare l'asse eliotermico?",
+      "opzioni": ["Nord-Sud (NS)", "Est-Ovest (EO)", "Nord/Nord-Est", "Sud/Sud-Ovest"],
+      "risposta_corretta": "Nord-Sud (NS)"
+    },
+    {
+      "id": 7,
+      "domanda": "Nello schema di orientamento ottimale dell'edificio, dove dovrebbero essere collocati i servizi?",
+      "opzioni": ["A Sud", "A Est", "A Ovest", "A Nord"],
+      "risposta_corretta": "A Nord"
+    },
+    {
+      "id": 8,
+      "domanda": "Per una strada urbana con larghezza compresa tra 7 e 15 metri, qual è la distanza di distacco richiesta?",
+      "opzioni": ["5 metri", "7,5 metri", "10 metri", "15 metri"],
+      "risposta_corretta": "7,5 metri"
+    },
+    {
+      "id": 9,
+      "domanda": "In quale zona urbanistica la distanza minima tra fabbricati deve essere pari o superiore alla distanza tra gli edifici esistenti?",
+      "opzioni": ["Zona A", "Zona B", "Zona C", "Zona D"],
+      "risposta_corretta": "Zona A"
+    },
+    {
+      "id": 10,
+      "domanda": "Per una strada urbana con larghezza superiore a 15 metri, qual è il distacco minimo?",
+      "opzioni": ["7,5 metri", "10 metri", "12,5 metri", "15 metri"],
+      "risposta_corretta": "10 metri"
+    }
+  ],
+  "livello_2": [
+    {
+      "id": 101,
+      "domanda": "DOMANDA COMPLESSA: In Zona C, come viene calcolata la distanza minima tra i fabbricati?",
+      "opzioni": [
+        "Fissa a 10 metri indipendentemente dall'altezza",
+        "Pari all'angolo di 45° dall'edificio più alto",
+        "Pari all'altezza dell'edificio più basso",
+        "Pari alla metà della somma delle altezze"
+      ],
+      "risposta_corretta": "Pari all'angolo di 45° dall'edificio più alto"
+    },
+    {
+      "id": 102,
+      "domanda": "DOMANDA COMPLESSA: Nella progettazione di impianti sportivi, qual è la superficie minima richiesta per i servizi/atrio rispetto alla palestra?",
+      "opzioni": [
+        "Maggiore di 1/10 della palestra",
+        "Maggiore di 1/25 della palestra",
+        "Maggiore di 1/50 della palestra",
+        "Fissata a 50 mq stabili"
+      ],
+      "risposta_corretta": "Maggiore di 1/25 della palestra"
+    },
+    {
+      "id": 103,
+      "domanda": "DOMANDA COMPLESSA: Qual è la dimensione standard per l'area attività ginniche (sala PESI) indicata nel testo?",
+      "opzioni": ["10x10 metri", "12x12 metri", "14x14 metri", "15x15 metri"],
+      "risposta_corretta": "12x12 metri"
+    },
+    {
+      "id": 104,
+      "domanda": "DOMANDA COMPLESSA: Per gare con impianto sportivo, l'accesso indipendente per il pubblico deve prevedere al massimo quanti posti?",
+      "opzioni": ["5-10 posti", "15-20 posti", "50 posti", "100 posti"],
+      "risposta_corretta": "15-20 posti"
+    },
+    {
+      "id": 105,
+      "domanda": "DOMANDA COMPLESSA: Nelle piscine, qual è la dimensione di una vasca a percorso lungo con 10-12 corsie?",
+      "opzioni": ["25 x 13 metri", "50 x 21,25 metri", "25 x 9 metri", "50 x 25 metri"],
+      "risposta_corretta": "50 x 21,25 metri"
+    }
+  ]
+}
