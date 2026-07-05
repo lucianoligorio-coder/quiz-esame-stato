@@ -69,7 +69,7 @@
     {
       "id": 12,
       "domanda": "Qual è la formula corretta per calcolare la percentuale di pendenza (%) di una rampa note l'altezza (H) e la lunghezza orizzontale (L)?",
-      "opzioni": ["% = (L / H) * 100", Kish, "% = (H / L) * 100", "% = H + L"],
+      "opzioni": ["% = (L / H) * 100", "% = (H / L) * 100", "% = H + L", "% = H - L"],
       "risposta_corretta": "% = (H / L) * 100"
     },
     {
@@ -187,7 +187,7 @@
     {
       "id": 301,
       "domanda": "Nel predimensionamento empirico di un telaio in Calcestruzzo Armato per edifici civili (luci 5-8 metri), come si calcola la profondità utile (h) della trave?",
-      "opzioni": ["h ≈ L/10", "h ≈ L/20", "h ≈ L/35", "h (mm) = 40/50 x L(m)"],
+      "opzioni": ["h ≈ L/10", "h ≈ L/20", "h ≈ L/35", "h ≈ L/50"],
       "risposta_corretta": "h ≈ L/20"
     },
     {
@@ -212,7 +212,7 @@
       "id": 305,
       "domanda": "Quale tipologia di struttura metallica consente di superare agevolmente luci libere superiori a 100 metri?",
       "opzioni": ["Travi a I e H ordinarie", "Tralicci e capriate", "Strutture reticolari spaziali", "Telai semplici incastrati"],
-      "risposta_corretta": "Struttures reticolari spaziali"
+      "risposta_corretta": "Strutture reticolari spaziali"
     },
     {
       "id": 306,
@@ -253,7 +253,7 @@
     {
       "id": 312,
       "domanda": "Nel pacchetto di copertura ventilato in legno, qual è lo spessore richiesto per la camera di ventilazione?",
-      "opzioni": "2,50 cm", "6 cm", "26 cm", "30 cm",
+      "opzioni": ["2,50 cm", "6 cm", "26 cm", "30 cm"],
       "risposta_corretta": "6 cm"
     },
     {
@@ -400,7 +400,7 @@
     },
     {
       "id": 506,
-      "domanda": "Nelle stanze dei medici/visita del piano tipo degenze, qual è la dimensione planimetrica standard ricorrente segnata nei blocchi?",
+      "domanda": "Nanne stanze dei medici/visita del piano tipo degenze, qual è la dimensione planimetrica standard ricorrente segnata nei blocchi?",
       "opzioni": ["9 mq", "15 mq", "20 mq", "29 mq"],
       "risposta_corretta": "29 mq"
     },
@@ -430,7 +430,7 @@
     },
     {
       "id": 511,
-      "domanda": "Nel Pronto Soccorso, lo spazio dell'astanteria prevede una dotazione minima indicata in pianta pari a:",
+      "domanda": "Nel Pronto Soccorso, lo spazio dell'astanteria prevede una dotazione minima indicata in planta pari a:",
       "opzioni": ["15 mq", "20 mq", "60 mq con letti", "100 mq"],
       "risposta_corretta": "60 mq con letti"
     },
@@ -749,7 +749,7 @@
     },
     {
       "id": 902,
-      "domanda": "Nello specifico delle piscine al coperto, quali sono le dimensions in pianta stabilite per una vasca a percorso lungo da 10-12 corsie?",
+      "domanda": "Nello specifico delle piscine al coperto, quali sono le dimensioni in pianta stabilite per una vasca a percorso lungo da 10-12 corsie?",
       "opzioni": ["25 x 13 metri", "25 x 9/11 metri", "50 x 21,25 metri", "50 x 25 metri"],
       "risposta_corretta": "50 x 21,25 metri"
     },
@@ -787,7 +787,7 @@
       "id": 908,
       "domanda": "Quali sono le dimensioni minime in pianta richieste per un campo da gioco regolamentare di Pallavolo?",
       "opzioni": ["15 x 9 metri", "15 x 24 metri", "18 x 30 metri", "18,27 x 36,57 metri"],
-      "risposta_corretta": "15 x 24  metri"
+      "risposta_corretta": "15 x 24 metri"
     },
     {
       "id": 909,
